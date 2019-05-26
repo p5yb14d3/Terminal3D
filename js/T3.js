@@ -31,7 +31,7 @@ function T3commands(line) {
 	if (terminal.app == "") {
 		switch(command) {
 			case "help":
-				print_buffer = "\t\nHELP:\n1)theme snowflakes\n2)theme starfield\n3)freeze\n4)unfreeze/resume\n5)sound on/off\n6)beep [note] [dur] ie: beep 2000 0.5\n7)jot";
+				print_buffer = "\t\nHELP:\n1)theme snowflakes\n2)theme starfield\n3)freeze\n4)unfreeze/resume\n5)sound on/off\n6)jot\n7)game";
 				terminal.print();
 				terminal.sound.beep([[660, 0.1], [660, 0.1], [660, 0.1], [510, 0.1], [660, 0.1], [770, 0.1], [1, 0.1], [380, 0.1]]);
 				break;
