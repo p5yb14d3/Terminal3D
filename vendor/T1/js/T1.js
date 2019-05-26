@@ -137,8 +137,8 @@ function initTerminal() {
 	
 	setInterval(terminal.cursor.blink,300);
 	
-	loadScript('vendor/beepjs/beep.js', function() {});
-	loadScript('vendor/speak-js/speakClient.js', function() {});
+	loadScript(T1_folder + 'vendor/beepjs/beep.js', function() {});
+	loadScript(T1_folder + 'vendor/speak-js/speakClient.js', function() {});
 	loadScript(T1_folder + 'js/T1commands.js', function() {});
 }
 	

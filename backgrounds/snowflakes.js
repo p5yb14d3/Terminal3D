@@ -12,11 +12,11 @@ function initBackground() {
 
 	var textureLoader = new THREE.TextureLoader();
 
-	var sprite1 = textureLoader.load( 'vendor/three.js/textures/sprites/snowflake1.png' );
-	var sprite2 = textureLoader.load( 'vendor/three.js/textures/sprites/snowflake2.png' );
-	var sprite3 = textureLoader.load( 'vendor/three.js/textures/sprites/snowflake3.png' );
-	var sprite4 = textureLoader.load( 'vendor/three.js/textures/sprites/snowflake4.png' );
-	var sprite5 = textureLoader.load( 'vendor/three.js/textures/sprites/snowflake5.png' );
+	var sprite1 = textureLoader.load( 'vendor/threejs/textures/sprites/snowflake1.png' );
+	var sprite2 = textureLoader.load( 'vendor/threejs/textures/sprites/snowflake2.png' );
+	var sprite3 = textureLoader.load( 'vendor/threejs/textures/sprites/snowflake3.png' );
+	var sprite4 = textureLoader.load( 'vendor/threejs/textures/sprites/snowflake4.png' );
+	var sprite5 = textureLoader.load( 'vendor/threejs/textures/sprites/snowflake5.png' );
 
 	for ( var i = 0; i < 10000; i ++ ) {
 		var x = Math.random() * 2000 - 1000;
