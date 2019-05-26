@@ -1,0 +1,7 @@
+function initBackground() {
+
+}
+
+function animateBackground() { 
+
+}
