@@ -1,5 +1,5 @@
-# Terminal 3D
-Retro terminal in 3D space.
+# Terminal Three
+Retro terminal in 2.5D space.
 
 [demo](http://p5yb14d3.github.io/terminal3d/T3.html)
 
