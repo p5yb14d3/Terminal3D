@@ -7,8 +7,8 @@ function T1commands(line) {
 				terminal.app = "jot";
 				terminal.prompt.set("jot:\\>");
 				terminal.line.text = ""; // clear line text
-				terminal.print("Welcome to Jot. The app that allows you to pen down your ideas on the fly");
-				terminal.print("You will like it");
+				terminal.print("Jot allows you to write down your ideas on the fly.");
+				terminal.print("Type help for commands.");
 				break;
 			case "game":
 				terminal.app = "game";
