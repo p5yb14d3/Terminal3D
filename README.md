@@ -1,5 +1,5 @@
 # Terminal Three
-Retro terminal in 2.5D space.
+Retro terminal in 2.5D space. Best viewed in landscape.
 
 [demo](http://p5yb14d3.github.io/terminal3d/T3.html)
 
